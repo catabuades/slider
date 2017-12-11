@@ -1,0 +1,15 @@
+{
+  "name": "putput",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "build:scss": "node-sass src/scss/styles.scss public/css/styles.css",
+    "build:scss:watch": "node-sass src/scss/styles.scss public/css/styles.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}

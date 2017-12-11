@@ -1,0 +1,381 @@
+@import '_variables';
+@import '_common';
+@import '_carousel';
+
+body {
+    max-width: 1443px;
+    max-height: 533px;
+    margin: 0 auto;
+    div.container-fluid {
+        div.carousel.slide.vertical {
+            div.indicators ol.dots.carousel-indicators {
+                margin-left: 0px !important;
+                margin-right: 0px !important;
+                width: 20px;
+                height: 60px;
+                top: 40%;
+                left: 95%;
+            }
+            div.carousel-inner {
+                div.first-slide.item.active {
+                    height: 458px;
+                    background-image: url(/img/001.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    div.col-md-5 {
+                        div.thumbnail {
+                            min-width: 367px;
+                            max-width: 367px;
+                            height: 408px;
+                            background-color: $white;
+                            margin-top: 26px;
+                            margin-left: 112px;
+                            border-radius: 0px;
+                            border: none;
+                            div.caption {
+                                padding: 0;
+                                h3 {
+                                    margin-top: 20px;
+                                    margin-left: 25px;
+                                    margin-bottom: 15px;
+                                    font-family: $lato;
+                                    font-weight: 300;
+                                    font-size: 24px;
+                                    color: $gray-titles;
+                                }
+                                div.thumbnail {
+                                    min-width: 317px;
+                                    max-width: 317px;
+                                    height: 96px;
+                                    border-bottom: 1px solid $gray-light;
+                                    margin-top: 10px;
+                                    margin-bottom: 0px;
+                                    margin-left: 25px;
+                                    margin-right: 25px;
+                                    div.calendar-gray {
+                                        float: left;
+                                        width: 70px;
+                                        height: 76px;
+                                        background-color: $gray-box;
+                                        color: $white;
+                                        text-align: center;
+                                        font-family: $lato;
+                                        p:first-child {
+                                            font-size: 10px;
+                                            text-transform: uppercase;
+                                            margin-bottom: 0px;
+                                            margin-top: 15px;
+                                        }
+                                        p:last-child {
+                                            font-size: 34px;
+                                            margin-top: -5px;
+                                            margin-bottom: 0px;
+                                        }
+                                    }
+                                    div.calendar-text {
+                                        float: right;
+                                        justify-content: center;
+                                        width: 228px;
+                                        height: 96px;
+                                        h4 {
+                                            margin-top: 3px;
+                                            margin-bottom: 5px;
+                                            font-family: $roboto;
+                                            font-size: 14px;
+                                        }
+                                        span img {
+                                            padding-bottom: 2px;
+                                        }
+                                        p {
+                                            display: inline-block;
+                                            font-size: 12px;
+                                            margin-bottom: 0px;
+                                            color: $gray-light;
+                                        }
+                                        .dropbtn span:first-child {
+                                            padding: 5px;
+                                        }
+                                        span.like {
+                                            margin-left: 10px;
+                                        }
+                                        span.last {
+                                            padding: 0px;
+                                            padding-left: 46px;
+                                            padding-right: 5px;
+                                        }
+                                        a {
+                                            display: inline-block;
+                                            p {
+                                                color: $green;
+                                                font-weight: bold;
+                                            }
+                                        }
+                                    }
+                                }
+                                div.thumbnail:last-child {
+                                    min-width: 342px;
+                                    max-width: 342px;
+                                    margin-right: 5px;
+                                    margin-left: 5px;
+                                    div.calendar-gray {
+                                        margin-left: 25px;
+                                    }
+                                    div.calendar-text {
+                                        margin-right: 0px;
+                                    }
+                                }
+                            }
+                        }
+                        @media (max-width: 550px) {
+                            div.thumbnail {
+                                min-width: 342px;
+                                max-width: 342px;
+                                margin: 0 auto;
+                                margin-top: 15px;
+                                div.caption {
+                                    h3 {
+                                        margin-left: 10px;
+                                    }
+                                    div.thumbnail {
+                                        min-width: 317px;
+                                        max-width: 317px;
+                                        margin-left: 10px;
+                                        margin-right: 10px;
+                                    }
+                                    div.thumbnail:last-child {
+                                        min-width: 322px;
+                                        max-width: 322px;
+                                        div.calendar-gray {
+                                            margin-left: 7px;
+                                            margin-right: 9px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    div.col-md-7 {
+                        div.thumbnail {
+                            min-width: 590px;
+                            max-width: 590px;
+                            height: 174px;
+                            background-color: #FFFFFF;
+                            margin-top: 143px;
+                            margin-left: 29px;
+                            padding: 0px;
+                            border-radius: 0px;
+                            border: none;
+                            background-color: transparent;
+                            div.box-right-number {
+                                display: inline-block;
+                                min-width: 174px;
+                                max-width: 174px;
+                                height: 174px;
+                                background-color: $green-rgba;
+                                color: $white;
+                                text-align: center;
+                                font-family: $lato;
+                                float: left;
+                                p:first-child {
+                                    padding-top: 22px;
+                                    margin-bottom: 0px;
+                                    font-size: 18px;
+                                    text-transform: uppercase;
+                                }
+                                p:last-child {
+                                    margin-top: -25px;
+                                    margin-bottom: 0px;
+                                    font-size: 100px;
+                                }
+                            }
+                            div.box-right {
+                                min-width: 416px;
+                                max-width: 416px;
+                                height: 174px;
+                                padding-left: 20px;
+                                background-color: $white;
+                                float: right;
+                                p.destacat {
+                                    margin-top: 20px;
+                                    padding: 3px;
+                                    display: inline-block;
+                                    background-color: $green-pastel;
+                                    border-radius: 2px;
+                                    font-size: 14px;
+                                }
+                                h3 {
+                                    margin-top: 0;
+                                    font-family: $lato;
+                                    font-size: 26px;
+                                }
+                                div.align-center {
+                                    margin-top: 20px;
+                                    span img {
+                                        padding-right: 5px;
+                                        padding-bottom: 2px;
+                                    }
+                                    p.situation {
+                                        display: inline-block;
+                                        font-size: 14px;
+                                        margin-bottom: 0px;
+                                        margin-right: 10px;
+                                        color: $gray-light;
+                                    }
+                                    a:nth-child(4) span i {
+                                        margin-left: 10px;
+                                    }
+
+                                    a:nth-child(5) p {
+                                        margin-bottom: 0px;
+                                        margin-left: 108px;
+                                        font-size: 14px;
+                                        color: $green;
+                                    }
+                                    a:focus,
+                                    a:hover {
+                                        color: transparent;
+                                        text-decoration: none;
+                                    }
+                                    span:last-child {
+                                        margin-top: 8px;
+                                        color: $green;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    @media screen and (max-width: 1230px) {
+                        .col-md-7 {
+                            display: none;
+                        }
+                    }
+                }
+                div.second-slide.item {
+                    height: 458px;
+                    background-image: url(/img/001.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    div.col-md-7 {
+                        div.thumbnail {
+                            min-width: 590px;
+                            max-width: 590px;
+                            height: 174px;
+                            background-color: #FFFFFF;
+                            margin-top: 143px;
+                            margin-left: 29px;
+                            padding: 0px;
+                            border-radius: 0px;
+                            border: none;
+                            background-color: transparent;
+                            div.box-right-number {
+                                display: inline-block;
+                                min-width: 174px;
+                                max-width: 174px;
+                                height: 174px;
+                                background-color: $green-rgba;
+                                color: $white;
+                                text-align: center;
+                                font-family: $lato;
+                                float: left;
+                                p:first-child {
+                                    padding-top: 22px;
+                                    margin-bottom: 0px;
+                                    font-size: 18px;
+                                    text-transform: uppercase;
+                                }
+                                p:last-child {
+                                    margin-top: -25px;
+                                    margin-bottom: 0px;
+                                    font-size: 100px;
+                                }
+                            }
+                            div.box-right {
+                                min-width: 416px;
+                                max-width: 416px;
+                                height: 174px;
+                                padding-left: 20px;
+                                background-color: $white;
+                                float: right;
+                                p.destacat {
+                                    margin-top: 20px;
+                                    padding: 3px;
+                                    display: inline-block;
+                                    background-color: $green-pastel;
+                                    border-radius: 2px;
+                                    font-size: 14px;
+                                }
+                                h3 {
+                                    margin-top: 0;
+                                    font-family: $lato;
+                                    font-size: 26px;
+                                }
+                                div.align-center {
+                                    margin-top: 20px;
+                                    span img {
+                                        padding-right: 5px;
+                                        padding-bottom: 2px;
+                                    }
+                                    p.situation {
+                                        display: inline-block;
+                                        font-size: 14px;
+                                        margin-bottom: 0px;
+                                        margin-right: 10px;
+                                        color: $gray-light;
+                                    }
+                                    a:nth-child(4) span i {
+                                        margin-left: 10px;
+                                    }
+
+                                    a:nth-child(5) p {
+                                        margin-bottom: 0px;
+                                        margin-left: 108px;
+                                        font-size: 14px;
+                                        color: $green;
+                                    }
+                                    a:focus,
+                                    a:hover {
+                                        color: transparent;
+                                        text-decoration: none;
+                                    }
+                                    span:last-child {
+                                        margin-top: 8px;
+                                        color: $green;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    @media screen and (max-width: 1000px) {
+                        .col-md-7 {
+                            display: inline;
+                        }
+                    }
+                    @media screen and (max-width: 500px) {
+                        .col-md-7 {
+                            div.thumbnail {
+                                min-width: 342px;
+                                max-width: 342px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        a.left.carousel-control {
+            width: 30px;
+            height: 30px;
+            top: 34%;
+            left: 94.6%;
+            background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+        }
+        a.right.carousel-control {
+            width: 30px;
+            height: 30px;
+            top: 52%;
+            left: 94.6%;
+            background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+        }
+    }
+}

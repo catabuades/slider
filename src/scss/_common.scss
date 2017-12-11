@@ -1,0 +1,93 @@
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.dropbtn {
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover.hover-image {
+    color: $white;
+}
+
+.dropbtn span:first-child {
+    padding: 5px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    width: 27px;
+    height: 27px;
+    position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 0px;
+    padding: 15px;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: $green;
+    margin: 0px;
+    text-decoration: none;
+    display: block;
+    p { 
+        margin: 0;
+        display: inline-block;
+        margin-left: 10px;
+        color: $green;
+        font-size: 14px;
+    }
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn span {
+    border-radius: 3px;
+    color: $white;
+    background-color: $green;
+}
+
+span.like {
+    font-size: 12px;
+    color: $green;
+}
+
+.material-icons {
+    font-size: 19px !important;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
