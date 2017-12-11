@@ -1,3 +1,4 @@
+# [Slider](http://slider-theatre.surge.sh/)
 
 ## Installation
 
